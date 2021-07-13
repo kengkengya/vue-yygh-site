@@ -1,8 +1,8 @@
 {
   "name": "yygh-site",
   "version": "1.0.0",
-  "description": "{{ 商医通 }}",
-  "author": "{{ atguigu }}",
+  "description": "尚医通项目",
+  "author": "look",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "element-ui": "^2.15.3",
-    "nuxt": "^2.0.0"
+    "element-ui": "^2.15.2",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "vue-qriously": "^1.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
