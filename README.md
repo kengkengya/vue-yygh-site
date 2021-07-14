@@ -1,23 +1,27 @@
-# {{ name }}
+# {{ 前台会员系统}}
 
-> {{ description }}
+> {{ 基于NUXT.js的简易前台会员系统}}
 
-## Build Setup
+## 项目总结  
+1.首页数据显示  
+    1.1 医院列表  
+2.医院详情显示  
+    2.1 医院科室显示  
+3.用户登录功能  
+    3.1 手机号登录  
+        3.1.1 验证码校验  
+    3.2 微信登录  
+4.用户实名认证功能  
+5.就诊人管理功能  
+    5.1列表、添加、查看、删除  
+6.预约挂号功能  
+    6.1 排班、挂号详情信息  
+    6.2 确认挂号信息  
+    6.3 生成预约挂号订单  
+    6.4 挂号订单支付（微信）  
+    6.5 取消预约订单  
+    6.6 发送短信提示功能  
+7.就医提醒功能  
+    7.1 定时任务
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
